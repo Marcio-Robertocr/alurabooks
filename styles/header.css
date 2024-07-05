@@ -28,8 +28,31 @@
     display: none;
     position: absolute;
     top: 100%;            /*Coloca o menu acima*/
+    width: 60vw;
 }
 
 .container__botao:checked ~ .lista-menu{
     display: block;
+}
+
+.lista-menu-titulo, .lista-menu-item{
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+.lista-menu-titulo{
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.lista-menu__link{
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;               /*esta parte foi copiada do figma*/
+    -webkit-text-fill-color: transparent;        /*esta parte foi copiada do figma*/
+    background-clip: text;                       /*esta parte foi copiada do figma*/
+    text-transform: uppercase;
+}
+
+.container__botao{
+    display: none;                               /*Propriedade para retirar a caixinha de seleção do checkbox*/
 }
