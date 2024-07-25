@@ -1,0 +1,30 @@
+.topicos{
+    background: var(--azul-degrade);        /*Quando o "background-color" não funcionar tente somente "background", pode ser por causa da cor */
+    text-align: center;
+    padding: 1em 0;
+}
+
+.topicos__titulo{
+    color: var(--branco);
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.topicos__lista{
+    display: flex;
+    flex-wrap: wrap;                     /*Faz com que os elementos não saiam para fora da tela. Fazendo uma quebra de linha*/
+    justify-content: center;
+}
+
+.topicos__item{
+    margin: 2em 0.5em;
+}
+
+.topicos__link{
+    color: var(--branco);
+    background-color: var(--laranja);
+    padding: 1em;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+}
