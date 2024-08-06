@@ -29,7 +29,18 @@
         </div>
 
         <ul class="opcoes">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu">
             <li class="opcoes__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu-item"><a href="#" class="lista-menu__link">Programação</a></li>
+                <li class="lista-menu-item"><a href="#" class="lista-menu__link">Front-end</a></li>
+                <li class="lista-menu-item"><a href="#" class="lista-menu__link">Infraestrutura</a></li>
+                <li class="lista-menu-item"><a href="#" class="lista-menu__link">Busines</a></li>
+                <li class="lista-menu-item"><a href="#" class="lista-menu__link">Design & UX </a></li>
+            </ul>
             <li class="opcoes__item"><a href="#" class="opcoes__link">Favorito</a></li>
             <li class="opcoes__item"><a href="#" class="opcoes__link">Minha Estante</a></li>
         </ul>
@@ -67,7 +78,6 @@
             <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
-            <!-- If we need scrollbar -->
         </div>
 
         <div class="card">
@@ -115,7 +125,7 @@
             <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
-            <!-- If we need scrollbar -->
+        
         </div>
         <div class="card">
             <div class="card__descricao">
@@ -168,8 +178,10 @@
     </section>
 
     <section class="contato">
-        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-        <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
         <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
     </section>
 
